@@ -49,7 +49,7 @@ public class PlayerControl : MonoBehaviour {
                 {
                     myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, 0f);
                 }
-                if (Input.GetKeyDown(KeyCode.J))
+                if (Input.GetKeyDown(KeyCode.X))
                 {
                     attackTimeCounter = attackTime;
                     attacking = true;

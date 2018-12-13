@@ -18,6 +18,8 @@ public class ButtonChange : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("Banaan");
         spriteRenderer.color = Color.blue;
+        transform.parent.gameObject.SetActive(false);
     }
 }
